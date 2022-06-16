@@ -1,0 +1,45 @@
+.homepageContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoTitle {
+  margin-left: 1rem;
+  font-size: 24px;
+}
+
+.input {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prodList {
+  display: flex;
+}
